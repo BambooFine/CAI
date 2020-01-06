@@ -1,0 +1,82 @@
+a{
+	text-align: center;
+}
+ul {
+	list-style: none;
+	margin: 40px;
+	padding: 0;
+	top: 50px;
+	width: 5%;
+	background-color:#f1f1f1;
+	position: fixed;
+	height: 65%;
+	overflow: auto;
+}
+li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a.active{
+	background-color: darkred;
+	color: white;
+}
+li a:hover:not(.active){
+	background-color: #555;
+	color: white;
+	
+}
+ #box{
+
+        width: 380px;
+        margin: 100px 0px 0px 1400px ;
+        
+        font-family: 'Microsoft YaHei';
+        font-size: 14px;
+    }
+    input{
+        width: 260px;
+        border: 1px solid #e2e2e2;
+        height: 30px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position:5px center;
+        padding:0 0 0 40px;
+    }
+    #search{
+        width: 78px;
+        height: 32px;
+        float: right;
+        background: black;
+        color: white;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer;
+    }
+  
+.border{border:0px solid #E0E0E0; margin-bottom:10px; overflow:hidden;zoom:0;}
+dl,dt,dd,h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{ width:1000px; 
+    margin:0 auto; padding:10px 0px 1000px;
+   
+overflow:hidden; 
+zoom:1;}
+#right{ width:660px;
+    float:left;
+        }
+     
+#pro dl{ float:left; padding-right:13px; margin-bottom:25px;}
+#pro dd{ text-align:center;}
+#pro .blue{ color:yellow;font-size: 15px ;font-weight: bold;}
+#pro .red,#footer .red{ color:#CC0000}
+#pro dd .xie{ text-decoration:line-through; font-style:italic;}
+ 
+
+ 
+ 
