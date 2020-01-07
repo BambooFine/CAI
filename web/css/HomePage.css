@@ -2,7 +2,7 @@ a{
 	text-align: center;
 }
 ul {
-	list-style: none;
+	
 	margin: 40px;
 	padding: 0;
 	top: 50px;
@@ -30,7 +30,7 @@ li a:hover:not(.active){
  #box{
 
         width: 380px;
-        margin: 100px 0px 0px 1400px ;
+        margin: 100px 0px 100px 1300px ;
         
         font-family: 'Microsoft YaHei';
         font-size: 14px;
@@ -67,7 +67,8 @@ dl,dt,dd,h1{
    
 overflow:hidden; 
 zoom:1;}
-#right{ width:660px;
+#right{ width:600px;
+    padding-left: 220px;
     float:left;
         }
      
